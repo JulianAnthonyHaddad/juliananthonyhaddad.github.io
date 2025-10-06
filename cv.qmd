@@ -1,0 +1,14 @@
+---
+title: "Curriculum Vitae"
+format:
+  html:
+    toc: false
+---
+
+
+
+You can view or download my full CV using the link below:
+
+[**Julian Haddad CV**](Julian_Haddad_CV.pdf){target="_blank"}
+
+<iframe src="Julian_Haddad_CV.pdf" width="100%" height="800px" style="border: none;"></iframe>

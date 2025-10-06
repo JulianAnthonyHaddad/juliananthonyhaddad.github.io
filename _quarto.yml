@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Julian Haddad"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+  page-footer:
+    left: "© 2025 Julian Haddad"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

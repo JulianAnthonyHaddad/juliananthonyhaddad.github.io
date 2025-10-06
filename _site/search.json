@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Julian Haddad",
+    "section": "",
+    "text": "Ph.D. Candidate\nDepartment of Political Science\nUniversity of California, Davis"
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Julian Haddad",
+    "section": "Bio",
+    "text": "Bio\nI’m a fifth-year Ph.D. candidate in Political Science at UC Davis, where I study how AI and automation are reshaping political attitudes toward redistribution, regulation, and the welfare state. My research combines survey experiments, cross-national analysis, and occupational risk data to understand how economic shocks influence political preferences.\nIn 2017 realized I loved teaching undergraduates how politics shapes their world, while leading discussion sections at UC San Diego and completing my Master of International Affairs. I now have nine years of experience in undergraduate teaching, mentorship, and pedagogical development. I have served as instructor of record for courses in American politics, comparative politics, and international relations. In political theory, I have taught hundreds of discussion sections on Mesoamerican Political Thought, Plato, Confucius, Hobbes, and more. My teaching emphasizes inclusive pedagogy and active learning. At UC Davis, I served as a Teaching Assistant Consultant, providing one-on-one consultations and leading workshops on Universal Design for Learning, supporting multilingual learners, and integrating technology into the classroom.\nMy dissertation explores how welfare state generosity shapes political responses to automation across countries, helping explain why similar disruptions provoke upheaval in some contexts but not in others. Latin America, with its varied welfare regimes and histories of populism, is a central focus. I am also interested in how different intellectual traditions, such as pre-colonial Indigenous thought and Confucianism, influence modern debates over the role of the state in the economy\nEven outside of explicitly comparative courses, I bring a global lens to the classroom. For example, students in my theory sections engage with texts such as the Analects of Confucius and pre-colonial Mesoamerican sources on the Aztec state alongside the Western canon."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Julian Haddad",
+    "section": "Education",
+    "text": "Education\n\nPh.D. Political Science | First Field: Comparative Politics, Second Field: Political Theory | UC Davis, expected 2026\n\nMaster of International Affairs | Career Tracks: International Economics and Business | Regional Focus Latin America - UC San Diego, 2018\nB.A. History and International Studies - UC San Diego, 2016"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Julian Haddad",
+    "section": "Research Interests",
+    "text": "Research Interests\nPolitical economy of AI | Welfare State Policy | Survey experiments | Latin America | Comparative Political Philosophy of Redistribution"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching Philosophy",
+    "section": "",
+    "text": "My teaching philosophy centers on making political science tangible and relevant through active learning and interdisciplinary engagement. I design courses that challenge students intellectually while building transferable skills like data literacy and critical analysis. Whether students are participating in mock elections to understand electoral systems, using V-Dem to see if oil-rich countries do tend to suffer from more corruption, tracing how intellectual traditions like Confucianism influence contemporary Chinese politics, or running their own regression analyses, I help them learn by doing.\nI’m committed to creating an inclusive learning environment where students feel supported in their intellectual growth while maintaining rigorous academic standards. With regard to course content, my interdisciplinary background in global studies and political theory enriches how I teach comparative politics, American politics, and international political economy. Across nine years of teaching in the UC, CSU, and community college systems, I’ve cultivated a pedagogical approach that students consistently describe as both challenging and approachable.\n\n\nInstructor of Record\n\nIntroduction to Comparative Politics – UC Davis\n\nIntroduction to American Government – American River College\n\nMass Media and American Politics – Sacramento State University\n\nAnalytical Writing – UC San Diego School of Global Policy and Strategy\n\n\n\n\nDiscussion Section Leader\nI’ve led hundreds of discussion sections across 9 years of teaching. Topics have included:\n\nComparative Politics: comparative political economy, regime types, democratization\nPolitical Theory: Confucius, Foundational Western theory, the Aztec state, Mesoamerican and Indigenous thought\n\n\n\n\nPedagogical Training\nAt UC Davis, I served as a Teaching Assistant Consultant (TAC), where I:\n\nLed workshops on Universal Design for Learning, Supporting Multilingual Students, Simplifying Course Design\n\nAdvised instructors students on inclusive teaching strategies\n\nRegularly read and evaluated pedagogy research\nAuthored and co-authored teaching guides\nProvided teaching consultations to instructors across various disciplines"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "How will Artificial Intelligence impact politics? My dissertation investigates how economic shocks, especially those driven by automation and AI, alter public preferences for redistribution, regulation, and the welfare state. Some economic shocks provoke populist backlash; others are met with political stability.\nI use experimental and cross‑national observational methods to examine when and why these divergent responses occur. Latin America, where welfare regimes vary widely and populist politics are deeply rooted, is a key region of comparison in my work and helps explain why similar shocks can produce support for either left‑ or right‑wing populists. By situating AI within a broader comparative agenda on the politics of economic disruption, I aim to help policymakers manage AI’s political impacts."
+  },
+  {
+    "objectID": "research.html#the-welfare-state-immigration-and-explaining-the-success-of-left-populists",
+    "href": "research.html#the-welfare-state-immigration-and-explaining-the-success-of-left-populists",
+    "title": "Research",
+    "section": "The Welfare State, Immigration, and Explaining the Success of Left Populists",
+    "text": "The Welfare State, Immigration, and Explaining the Success of Left Populists\nElectorates are sometimes in “populist moods,” but vary in whether they elect left‑wing or right‑wing populists. This chapter proposes that welfare state generosity moderates this variation. Unlike traditional left‑right divisions, both left and right populists defend the welfare state but in different ways.\n\nLeft populists (e.g., Evo Morales) tend to advocate for protecting the welfare state from austerity.\n\nRight populists (e.g., Jair Bolsonaro, Geert Wilders) often adopt “welfare chauvinism,” arguing that immigrants put too much pressure on the welfare state.\n\nUsing data from the Centro de Estudios Distributivos, Laborales y Sociales (CEDLAS), the Comparative Welfare Entitlements Dataset (CWED), and the IMF Banking Crises Database, I empirically test Dani Rodrik’s theoretical assertion that the nature of a globalization shock interacts with welfare state generosity to shape populist outcomes.\nFor example, an immigration shock in a country with a generous welfare state should produce support for right‑populist welfare chauvinists, while a financial shock in a less generous state should produce support for left‑populists arguing to protect the welfare state from austerity."
+  },
+  {
+    "objectID": "research.html#can-governments-buy-support-for-automation",
+    "href": "research.html#can-governments-buy-support-for-automation",
+    "title": "Research",
+    "section": "Can Governments Buy Support for Automation?",
+    "text": "Can Governments Buy Support for Automation?\nGovernments are often called upon to regulate automation, from California’s 2024 self‑driving truck ban to its 2025 AI regulations. This project asks whether welfare state generosity can reduce public support for automation‑related regulations by drawing on the embedded liberalism literature, which argues that governments can “buy” support for disruptive economic changes by expanding welfare spending.\nThis project tests whether embedded liberalism applies to white‑collar workers facing AI‑based automation and whether they will accept workplace transformation with little political consequence, or instead punish politicians who accept automation. Using cross‑national regression analysis with CEDLAS, the General Social Survey, and CWED, this chapter shows how welfare state scope predicts whether voters want to restrict automation and helps policymakers avoid repeating the embedded liberalism breakdown of the 2010s."
+  },
+  {
+    "objectID": "research.html#ai-winners-vs.-ai-losers-experimental-evidence-on-economic-risk-policy-preferences",
+    "href": "research.html#ai-winners-vs.-ai-losers-experimental-evidence-on-economic-risk-policy-preferences",
+    "title": "Research",
+    "section": "AI Winners vs. AI Losers: Experimental Evidence on Economic Risk & Policy Preferences",
+    "text": "AI Winners vs. AI Losers: Experimental Evidence on Economic Risk & Policy Preferences\nMillions of white‑collar workers now face potential job losses from AI, while for others AI boosts productivity and earnings. What will be the political consequences of this divergent impact on a part of the electorate that has historically enjoyed economic stability?\nTo investigate this, I fielded a pre‑registered survey experiment (n=1005) of U.S. white‑collar workers. Respondents viewed randomized video treatments framing AI as either a job substitute or productivity tool.\nI find a bifurcation of political preferences between “AI winners” and “AI losers”:\n\nThose whose jobs stand to be augmented by AI prefer lower taxes on the wealthy and corporations.\nThose at highest risk prefer more taxes on the wealthy.\nSurprisingly, neither group wants major welfare state changes that would presumably protect job losers.\n\nI argue this reflects that redistribution preferences are deeply partisan and informed by philosophical differences about the government’s role in economic shocks. Partisans react to AI threat by supporting party‑specific economic prescriptions. This explains why Democrats support regulation and taxing the rich, while Republicans oppose job‑retraining and UBI when primed with AI threat.\nThis study will be submitted for review at Political Behavior in October 2025."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "You can view or download my full CV using the link below:\nJulian Haddad CV"
+  }
+]

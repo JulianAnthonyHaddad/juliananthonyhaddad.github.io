@@ -1,0 +1,45 @@
+/* Global text: slightly larger but not narrow */
+body {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-family: system-ui, sans-serif;
+  padding: 2rem;
+  margin: 0;
+}
+
+.profile-pic {
+  border-radius: 50px; /* or 20px, 30px, etc. */
+  max-width: 380px;
+  height: auto;
+}
+
+/* Sidebar column (headshot) */
+.column-screen {
+  width: 30%;
+  float: left;
+  margin-right: 2rem;
+  max-width: 220px;
+}
+
+/* Main content column (text) */
+.column-body {
+  width: 68%;
+  float: left;
+}
+
+/* Rounded image inside column-screen */
+.column-screen img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+/* Stack columns on mobile */
+@media (max-width: 768px) {
+  .column-screen,
+  .column-body {
+    width: 100%;
+    float: none;
+    margin: 0 0 1rem 0;
+  }
+}

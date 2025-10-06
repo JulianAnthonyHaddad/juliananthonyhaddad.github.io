@@ -1,0 +1,56 @@
+---
+title: "Research"
+format:
+  html:
+    toc: true
+---
+
+How will Artificial Intelligence impact politics? My dissertation investigates how economic shocks, especially those driven by automation and AI, alter public preferences for redistribution, regulation, and the welfare state. Some economic shocks provoke populist backlash; others are met with political stability. 
+
+I use experimental and cross‑national observational methods to examine when and why these divergent responses occur. Latin America, where welfare regimes vary widely and populist politics are deeply rooted, is a key region of comparison in my work and helps explain why similar shocks can produce support for either left‑ or right‑wing populists. By situating AI within a broader comparative agenda on the politics of economic disruption, I aim to help policymakers manage AI’s political impacts.
+
+---
+
+# Dissertation Projects
+
+## AI Winners vs. AI Losers: Experimental Evidence on Economic Risk & Policy Preferences
+
+Millions of white‑collar workers now face potential job losses from AI, while for others AI boosts productivity and earnings. What will be the political consequences of this divergent impact on a part of the electorate that has historically enjoyed economic stability?
+
+To investigate this, I fielded a pre‑registered survey experiment (n=1005) of U.S. white‑collar workers. Respondents viewed randomized video treatments framing AI as either a job substitute or productivity tool.  
+
+I find a bifurcation of political preferences between “AI winners” and “AI losers”:
+
+- Those whose jobs stand to be augmented by AI prefer lower taxes on the wealthy and corporations.
+- Those at highest risk prefer more taxes on the wealthy.
+- Surprisingly, neither group wants major welfare state changes that would presumably protect job losers.
+
+I argue this reflects that redistribution preferences are deeply partisan and informed by philosophical differences about the government’s role in economic shocks. Partisans react to AI threat by supporting party‑specific economic prescriptions. This explains why Democrats support regulation and taxing the rich, while Republicans oppose job‑retraining and UBI when primed with AI threat.
+
+This study will be submitted for review at *Political Behavior* in October 2025.
+
+---
+
+## The Welfare State, Immigration, and Explaining the Success of Left Populists
+
+Electorates are sometimes in “populist moods,” but vary in whether they elect left‑wing or right‑wing populists. This chapter proposes that welfare state generosity moderates this variation. Unlike traditional left‑right divisions, both left and right populists defend the welfare state but in different ways.
+
+- **Left populists** (e.g., Evo Morales) tend to advocate for protecting the welfare state from austerity.  
+- **Right populists** (e.g., Jair Bolsonaro, Geert Wilders) often adopt “welfare chauvinism,” arguing that immigrants put too much pressure on the welfare state.
+
+Using data from the [Centro de Estudios Distributivos, Laborales y Sociales (CEDLAS)](https://www.cedlas.econo.unlp.edu.ar/), the Comparative Welfare Entitlements Dataset (CWED), and the IMF Banking Crises Database, I empirically test Dani Rodrik’s theoretical assertion that the nature of a globalization shock interacts with welfare state generosity to shape populist outcomes.
+
+For example, an immigration shock in a country with a generous welfare state should produce support for right‑populist welfare chauvinists, while a financial shock in a less generous state should produce support for left‑populists arguing to protect the welfare state from austerity.
+
+---
+
+## Can Governments Buy Support for Automation?
+
+Governments are often called upon to regulate automation, from California’s 2024 self‑driving truck ban to its 2025 AI regulations. This project asks whether welfare state generosity can reduce public support for automation‑related regulations by drawing on the embedded liberalism literature, which argues that governments can “buy” support for disruptive economic changes by expanding welfare spending.
+
+This project tests whether embedded liberalism applies to white‑collar workers facing AI‑based automation and whether they will accept workplace transformation with little political consequence, or instead punish politicians who accept automation. Using cross‑national regression analysis with CEDLAS, the General Social Survey, and CWED, this chapter shows how welfare state scope predicts whether voters want to restrict automation and helps policymakers avoid repeating the embedded liberalism breakdown of the 2010s.
+
+---
+
+
+
