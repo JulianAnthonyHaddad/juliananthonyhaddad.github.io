@@ -1,41 +1,87 @@
-/* Global text: slightly larger but not narrow */
+/* Global text styling */
 body {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  font-family: system-ui, sans-serif;
+  font-size: .95rem;
+  line-height: 1.8;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   padding: 2rem;
   margin: 0;
 }
 
-.profile-pic {
-  border-radius: 50px; /* or 20px, 30px, etc. */
-  max-width: 380px;
-  height: auto;
+/* TWO-COLUMN LAYOUT */
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow: hidden;
 }
 
-/* Sidebar column (headshot) */
+/* FIXED SIDEBAR */
+.sidebar-fixed {
+  width: 400px; /* wider */
+  min-width: 300px;
+  padding: 2rem;
+  background-color: #f8f8f8;
+  border-right: 1px solid #ddd;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* HEADSHOT IMAGE */
+.profile-pic {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* MAIN CONTENT */
+.main-scrollable {
+  margin-left: 400px; /* match new sidebar width */
+  padding: 3rem;
+  flex: 1;
+  height: 100vh;
+  overflow-y: auto;
+  max-width: calc(100% - 400px);
+}
+
+/* LEGACY STYLES - optional cleanup */
 .column-screen {
-  width: 30%;
+  width: 40%;
   float: left;
   margin-right: 2rem;
-  max-width: 220px;
+  max-width: 300px;
 }
 
-/* Main content column (text) */
 .column-body {
-  width: 68%;
+  width: 58%;
   float: left;
 }
 
-/* Rounded image inside column-screen */
 .column-screen img {
   border-radius: 10px;
   width: 100%;
   height: auto;
 }
 
-/* Stack columns on mobile */
+/* MOBILE OVERRIDE FOR LEGACY CLASSES */
 @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar-fixed {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .main-scrollable {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
   .column-screen,
   .column-body {
     width: 100%;
