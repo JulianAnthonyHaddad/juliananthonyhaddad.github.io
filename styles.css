@@ -1,37 +1,181 @@
+/* ================================
+   Base reset & typography
+   ================================ */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
-  padding: 2rem;
   margin: 0;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.profile-pic {
-  max-width: 400px;
-  border-radius: 10px;
-  display: square;
-  margin: 0 auto 1.5rem auto;
-}
-
-.research-pic {
-  max-width: 525px;
-  border-radius: 10px;
-  display: square;
-  margin: 0 auto 1.5rem auto;
-}
-
-h1, h2, h3 {
-  margin-top: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #fff;
 }
 
 a {
-  color: #007acc;
+  color: #3498db;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+h1, h2, h3 {
+  line-height: 1.25;
+}
+
+/* ================================
+   Layout
+   ================================ */
+
+.layout {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+/* ================================
+   Sidebar (desktop)
+   ================================ */
+
+.sidebar {
+  flex: 0 0 400px;
+  position: sticky;
+  top: 2rem;
+  align-self: flex-start;
+
+  margin-bottom: 1.5rem; /* ← ADD THIS */
+}
+
+.sidebar h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.sidebar-text {
+  font-size: 0.95rem;
+}
+
+/* Profile image */
+.profile-pic {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 0rem;
+}
+
+/* ================================
+   Main content
+   ================================ */
+
+.content {
+  flex: 1;
+  min-width: 0;
+}
+
+.content h2 {
+  margin-top: 2.5rem;
+}
+
+/* Remove extra space before first section */
+.content > h2:first-of-type {
+  margin-top: 0;
+}
+
+.content p {
+  max-width: 70ch;
+}
+
+/* ================================
+   Narrow desktop: continuous scroll, big image
+   ================================ */
+
+@media (max-width: 1100px) {
+
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: static;
+    width: 100%;
+    max-width: none;
+
+    /*  critical fixes */
+    height: auto;
+    overflow: visible;
+    text-align: left;
+  }
+
+  .profile-pic {
+    max-width: 420px;
+  }
+}
+
+
+
+/* ================================
+   Mobile layout
+   ================================ */
+
+@media (max-width: 768px) {
+
+  .layout {
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 2rem;
+  }
+
+  /* Sidebar becomes normal scrolling content */
+  .sidebar {
+    position: static;
+    width: 100%;
+    max-width: none;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .sidebar h1 {
+    margin-top: 0.75rem;
+  }
+
+  .profile-pic {
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .content p {
+    max-width: none;
+  }
+}
+
+/* ================================
+   Hide Quarto "On this page" TOC
+   (safety net even if YAML changes)
+   ================================ */
+
+#TOC,
+nav[role="doc-toc"] {
+  display: none !important;
+}
+
+
+.research-pic {
+  display: block;
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
 }
